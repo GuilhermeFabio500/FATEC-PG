@@ -22,3 +22,5 @@ GIT (Protocolo dos versionamentos) != GitHub (ferramenta no navegador)
 
 
 Staging area!?: antes do comit? : Isso mesmo, quando você adiciona um arquivo, o git espera a confirmação para que você suba esse arquivo para uma Branch..
+
+fetch push
