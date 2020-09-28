@@ -1,0 +1,24 @@
+PROMO CODE da IBM:
+
+Aula 1 - Fundamentos GIT
+
+-Controle de Versão: Contextualização
+	Compartilhamento de código, segurança, backup, trabalho compartilhado
+	"É um sistesma que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas."
+-O GIT:
+	git init: inicializa um repositório (Presta atenção na pasta que você está)
+	git status: verifica o estado atual do repositório
+	git add: git add .(todos os arquivos diferentes) 	git add nome.extensao(único arquivo)	adiciona arquivos ao git (só suba o que estiver no seu nome, que você possa garantir que está funcionando)
+	git commit: git commit -m "sua mensagem de commit"	commitar os arquivos.
+	git log: ver histórico	git log --stat
+	git remote:	git remote add origin ""URL""	 Operando repositórios remotos
+		git remote -v 	Verifica o remote do diretório atual(se existir)
+	git push: git push origin master	git push origin nomeBranch	Levando versão 		para o repositório no GITHUB
+	git clone: git clone ""URL""
+
+GIT (Protocolo dos versionamentos) != GitHub (ferramenta no navegador)
+
+
+
+
+Staging area!?: antes do comit? : Isso mesmo, quando você adiciona um arquivo, o git espera a confirmação para que você suba esse arquivo para uma Branch
